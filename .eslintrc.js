@@ -9,6 +9,7 @@ module.exports = {
     requireConfigFile: false
   },
   extends: [
+    'plugin:vue/vue3-essential',
     '@nuxtjs',
     'plugin:nuxt/recommended'
   ],
@@ -16,6 +17,7 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
-    'vue/multi-word-component-names': 'off'
+    'vue/multi-word-component-names': 0,
+    'vue/no-v-model-argument': 0
   }
 }

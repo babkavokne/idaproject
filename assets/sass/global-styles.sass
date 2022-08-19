@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap')
+
+html
+  font-family: 'Source Sans Pro', sans-serif
+  font-weight: 400
+  font-size: 16px
+  -moz-osx-font-smoothing: grayscale
+  font-smoothing: antialiased
+  -webkit-font-smoothing: antialiased
+  
+*
+  box-sizing: border-box
+  padding: 0
+  margin: 0
+
+a
+  text-decoration: none
+  color: inherit
+
+body
+  color: #3F3F3F
+  background: #FAF9F7
+  // rgba(255, 254, 251, .8) но фон рабочей области #E5E5E5 в сумме даёт #FAF9F7, возможно, Вы хотите, чтобы я строго следовал аналитической информации из figma, но конечный результат будет совсем другим, тч я сделал как сделал
+
+h1
+  font-weight: 600
+  font-size: 28px
+h2
+  font-weight: 600
+  font-size: 20px
+
+input, textarea
+  border-radius: 4px
+
+.wrapper
+  max-width: 1440px
+  margin: 0 auto
+  padding: 32px
+
+@media (max-width: 340px)
+  .wrapper
+    padding: 12px 12px 0 12px
